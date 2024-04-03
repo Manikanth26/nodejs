@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest --coverage --forceExit --verbose",
     "start": "node jwt.js",
     "server": "nodemon jwt.js"
   },
